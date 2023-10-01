@@ -1,0 +1,46 @@
+.navbar{
+    width: 100%;
+    background-color: skyblue;
+    font-size: 1.5em;
+    padding: 0.8em;
+}
+.nav-ul{
+    
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    gap: 2em;
+    align-items: center;
+}
+.nav-ul li a{
+    transition:0.2s all ease-in-out; 
+    
+    text-decoration: none;
+}
+.nav-ul li a:hover{
+    color:#ffffff;
+    cursor: pointer;
+    
+}
+.nav-ul li a:focus{
+    color:#ffffff;
+    position:relative;
+    border-bottom: 2px solid rgb(137, 136, 136);
+}
+.nav-right{
+    justify-content: right;
+}
+
+
+@media screen  and (max-width: 600px) {
+    .nav-ul{
+        flex-direction: column;
+        gap:0.2em;
+    }
+    .navbar{
+        font-size: 0.8em;
+        padding: 0.2em;
+    }
+    
+
+}

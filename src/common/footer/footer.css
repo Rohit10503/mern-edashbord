@@ -1,0 +1,36 @@
+.foot{
+  
+    background-color: skyblue;
+    /*padding: 1em;*/
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    font-size: 1.2em;
+    font-weight: bold;
+    z-index: 1;
+}
+.foot span{
+    transition:0.2s all ease-in-out;
+}
+.foot span:hover{
+    color:white;
+}
+.footer-link:hover{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer-p  {
+    color:rgb(255, 106, 0);
+    font-size: 1rem;
+    
+}
+@media screen  and (max-width: 600px){
+    .foot{
+        position:sticky;
+        margin-top: 10em;
+        bottom: 0px;
+    }
+}

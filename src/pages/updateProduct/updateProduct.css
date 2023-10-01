@@ -1,0 +1,37 @@
+/**Same copied from addProduct.css**/
+
+.form{
+    margin-top: 1em;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+}
+.form input{
+    width:20em;
+    padding:0.6em;
+    font-size: 1.3rem;
+    border-radius: 0.3em;
+}
+.button{
+    width: 12em;
+    background-color: rgb(92, 184, 220);
+}
+.button:hover{
+    cursor: pointer;
+    color: white;
+    
+}
+.err-text{
+    font-size: 1rem;
+    color:red;
+    padding: 0;
+    margin: -1.4rem;
+
+}
+@media screen  and (max-width: 600px) {
+    .form input{
+        width:50%;
+    }
+}

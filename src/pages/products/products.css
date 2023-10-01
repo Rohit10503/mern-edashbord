@@ -1,0 +1,35 @@
+table tr td{
+    padding:0.2em 0.4em;
+}
+.main-content{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+table {
+
+    border-collapse: collapse;
+}
+.table-head{
+    background-color: rgb(201 200 199);
+}
+.del-btn{
+    padding: 0.1em;
+
+}
+.del-btn:hover{
+    cursor: pointer;
+}
+
+h5{
+    text-align: center;
+}
+@media screen  and (max-width: 600px){
+    .main-content{
+        overflow-x: scroll;
+    }
+    
+  
+}
